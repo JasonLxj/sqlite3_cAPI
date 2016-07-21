@@ -15,6 +15,8 @@
 		82E36DFD1D3FA77200195439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82E36DFB1D3FA77200195439 /* LaunchScreen.storyboard */; };
 		82E36E081D3FA77300195439 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E36E071D3FA77300195439 /* _____Tests.m */; };
 		82E36E131D3FA77300195439 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E36E121D3FA77300195439 /* _____UITests.m */; };
+		82E36E221D3FA79600195439 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E36E201D3FA79600195439 /* libsqlite3.0.tbd */; };
+		82E36E231D3FA79600195439 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E36E211D3FA79600195439 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		82E36E0E1D3FA77300195439 /* 数据库操作UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "数据库操作UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82E36E121D3FA77300195439 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		82E36E141D3FA77300195439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82E36E201D3FA79600195439 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		82E36E211D3FA79600195439 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82E36E221D3FA79600195439 /* libsqlite3.0.tbd in Frameworks */,
+				82E36E231D3FA79600195439 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,8 @@
 		82E36DE11D3FA77200195439 = {
 			isa = PBXGroup;
 			children = (
+				82E36E201D3FA79600195439 /* libsqlite3.0.tbd */,
+				82E36E211D3FA79600195439 /* libsqlite3.tbd */,
 				82E36DEC1D3FA77200195439 /* 数据库操作 */,
 				82E36E061D3FA77300195439 /* 数据库操作Tests */,
 				82E36E111D3FA77300195439 /* 数据库操作UITests */,
